@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1514140574 source:d:\cuack\primer trabajo\polimorfismo\main.cpp
+	<iostream>
+
+1522123973 source:d:\cuack\primer trabajo\polimorfismo\src\c_hija_menor.cpp
+	"C_Hija_Menor.h"
+
+1522124124 d:\cuack\primer trabajo\polimorfismo\include\c_hija_menor.h
+	"C_padre.h"
+
+1522118612 d:\cuack\primer trabajo\polimorfismo\include\c_padre.h
+
+1522122482 source:d:\cuack\primer trabajo\polimorfismo\src\c_padre.cpp
+	"C_padre.h"
+
