@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523045691 source:d:\pn\algoritmos-y-estructura-de-datos\1° trabajo\cocktail-original\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
