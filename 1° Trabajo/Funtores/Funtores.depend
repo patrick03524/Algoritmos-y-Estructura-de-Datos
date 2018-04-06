@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523055190 source:c:\users\inigo\desktop\funtores\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

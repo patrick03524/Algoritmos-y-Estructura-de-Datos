@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523056156 source:c:\users\inigo\desktop\punteros-funcion\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
