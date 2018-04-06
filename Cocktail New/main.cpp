@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
+unsigned long inicio,fin,t;
 ///faltan new y pointos :v
 using namespace std;
 
@@ -14,6 +15,15 @@ void crear_aroi(T *aroi, int num_elem){ ///solo int's
         *aroi=numero_aleatorio;
         aroi++;
     }
+}
+
+template<class T>
+void borrar_aroi(T *aroi, int num_elem){
+    for(int i=0; i< num_elem; i++){
+        delete aroi;
+    }
+    aroi = 0;
+    cout <<"aroi borra3"<<endl;
 }
 
 template <class T>
@@ -66,19 +76,28 @@ void printArray(T *a, int n)
 
 int main()
 {
-    const int numero_de_elementos = 10;
-    int arr[numero_de_elementos];
+    const int numero_de_elementos = 1000;
+    ///int *aroi = NULL;
+    int *arr =NULL;
+    arr= new int[numero_de_elementos];
 
     crear_aroi<int>(arr,numero_de_elementos); ///cantidad de elementos del Array*/
     ///int arr[] = {6,8,1,3,4,2,5,10,9,7};
     ///int arr[] = {1,2,3,4,5,6};
-    int n = sizeof(arr)/ sizeof(arr[0]);
-    int *p = arr;
-    cout <<"Array Ingresado :";
-    printArray<int>(p,n);
-    ord_Cocktail<int>(p,n);
-    cout <<"Array Ordenado :";
-    printArray<int>(p,n);
+    ///int n = sizeof(arr)/ sizeof(arr[0]);
+    ///int *p = arr;
+    /*cout <<"Array Ingresado :";
+    printArray<int>(arr,numero_de_elementos);*/
+    inicio=clock();
+    ord_Cocktail<int>(arr,numero_de_elementos);
+    fin=clock();
+    double t=(double(fin-inicio)/CLOCKS_PER_SEC);
+	cout << "Tiempo: " << t << " seg" << endl;
+    /*cout <<"Array Ordenado :";
+    printArray<int>(arr,numero_de_elementos);
+    ///borrar_aroi<int>(p,n);*/
+    delete[] arr;
+    arr = 0;
 
     return 0;
 }
