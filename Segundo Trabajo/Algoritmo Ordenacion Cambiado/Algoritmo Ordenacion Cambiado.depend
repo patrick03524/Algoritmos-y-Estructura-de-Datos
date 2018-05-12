@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526120656 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\algoritmo ordenacion cambiado\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
