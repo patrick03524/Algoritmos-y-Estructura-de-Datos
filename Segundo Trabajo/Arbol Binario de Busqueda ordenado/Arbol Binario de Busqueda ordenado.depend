@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1526124561 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\main.cpp
+	"CBinTree.h"
+
+1526123034 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\src\cbinnode.cpp
+	"CBinNode.h"
+
+1526123887 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\include\cbinnode.h
+
+1526123152 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\src\operator.cpp
+	"Operator.h"
+
+1526124293 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\include\operator.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1526123887 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\src\cbintree.cpp
+	"CBinTree.h"
+
+1526124896 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\arbol binario de busqueda ordenado\include\cbintree.h
+	"CBinNode.h"
+	"Operator.h"
+
