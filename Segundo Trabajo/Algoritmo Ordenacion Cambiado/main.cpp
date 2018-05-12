@@ -28,7 +28,7 @@ struct CMayor{
 
 template <class T>
 void swap_p(T *a, T *b){
-    T temp = *(a);
+    T temp = *a;
     *a = *b;
     *b = temp;
 }
@@ -49,15 +49,15 @@ void ord_Cocktail(T *a, int n)
 {                           ///ar_start=n-1 & ar_end=0 ascendente
     Op o;
     bool comp = true;
-    int ar_start  = 0;          ///0
-    int ar_end = n-1;           ///n-1
+    int *ar_start  = a;
+    int *ar_end = a+n-1;
 
     while (comp == true)
     {
         comp = false;
-        for (int i = ar_start ; i < ar_end; i++){
-            if (o(*(a+i), *(a+i+1))){
-                swap_p((a+i), (a+i+1));
+        for (int *i = ar_start ; i < ar_end; i++){
+            if (o(*(i), *(i+1))){
+                swap_p((i), (i+1));
                 comp = true;
             }
         }
@@ -66,16 +66,15 @@ void ord_Cocktail(T *a, int n)
         }
         --ar_end;
         comp = false;
-        for (int i = ar_end - 1; i >= ar_start ; i--){
-            if (o(*(a+i), *(a+i+1))){
-                swap_p((a+i), (a+i+1));
+        for (int *i = ar_end - 1; i >= ar_start ; i--){
+            if (o(*(i), *(i+1))){
+                swap_p((i), (i+1));
                 comp = true;
             }
         }
         ++ar_start ;
     }
 }
-
 template <class T>
 void printArray(T *a, int n)
 {
