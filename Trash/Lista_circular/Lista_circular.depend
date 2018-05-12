@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1511589954 source:d:\programming\c++\lista_circular\main.cpp
+	<iostream>
+	<Lista_enlazada_circular.h>
+
+1511589967 d:\programming\c++\lista_circular\include\lista_enlazada_circular.h
+	<nodo.h>
+
+1511589997 d:\programming\c++\lista_circular\include\nodo.h
+	<iostream>
+
+1511590093 source:d:\programming\c++\lista_circular\src\lista_enlazada_circular.cpp
+	"Lista_enlazada_circular.h"
+
+1511590013 source:d:\programming\c++\lista_circular\src\nodo.cpp
+	"nodo.h"
+
