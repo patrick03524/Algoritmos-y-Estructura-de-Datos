@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1526113802 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\main.cpp
+	"Lista_Enlazada_Circular.h"
+
+1526105028 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\src\node.cpp
+	"Node.h"
+
+1526106751 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\include\node.h
+
+1526105375 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\src\lista_enlazada_circular.cpp
+	"Lista_Enlazada_Circular.h"
+
+1526113467 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\include\lista_enlazada_circular.h
+	"Node.h"
+	"Operator.h"
+
+1526110129 d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\include\operator.h
+	<iostream>
+
+1526106564 source:d:\programming\algoritmos-y-estructura-de-datos\segundo trabajo\lista enlazada doble circular\src\operator.cpp
+	"Operator.h"
+

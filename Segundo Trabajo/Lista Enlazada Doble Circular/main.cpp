@@ -1,11 +1,10 @@
-#include <iostream>
-#include <Lista_enlazada_circular.h>
-
+/*#include <iostream>
 using namespace std;
-
-int main(int argc, char *argv[]) {
-	Lista_enlazada_circular l;
-
+*/
+#include "Lista_Enlazada_Circular.h"
+int main()
+{
+    Lista_Enlazada_Circular<int,CLess<int> > l;
 	cout <<"LISTA ENLAZADA DOBLE CIRCULAR"<<endl;
 	unsigned int n, n2;
 	int num,num2;
@@ -15,7 +14,7 @@ int main(int argc, char *argv[]) {
         cout<<"Ingrese un numero :";
         cin >> num;
         cout <<" "<<endl;
-        l.append(num);
+        l.insert(num);
         cout <<"List : ";
         l.print();
         cout <<" "<<endl;
@@ -26,10 +25,9 @@ int main(int argc, char *argv[]) {
         cout<<"Ingrese un numero :";
         cin >> num2;
         cout <<" "<<endl;
-        l.del(num2);
+        l.remove(num2);
         cout <<"List : ";
         l.print();
         cout <<" "<<endl;
 	}
-	return 0;
 }
