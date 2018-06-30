@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1530347416 source:d:\programming\c++\grafocmamani\main.cpp
+	<iostream>
+
+1528773918 source:d:\programming\c++\grafocmamani\src\cnode.cpp
+	"CNode.h"
+
+1530369830 d:\programming\c++\grafocmamani\include\cnode.h
+	"Func.h"
+
+1528773913 source:d:\programming\c++\grafocmamani\src\func.cpp
+	"Func.h"
+
+1528775112 d:\programming\c++\grafocmamani\include\func.h
+	<iostream>
+	<vector>
+
+1530347417 source:d:\programming\c++\grafocmamani\src\lista.cpp
+	"Lista.h"
+
+1530347417 d:\programming\c++\grafocmamani\include\lista.h
+	"Func.h"
+
+1528774617 source:d:\programming\c++\grafocmamani\src\cedge.cpp
+	"CEdge.h"
+
+1530369816 d:\programming\c++\grafocmamani\include\cedge.h
+	"CNode.h"
+
+1530376475 source:d:\programming\c++\grafocmamani\src\cgraph.cpp
+	"CGraph.h"
+
+1530371740 d:\programming\c++\grafocmamani\include\cgraph.h
+	"CEdge.h"
+
